@@ -1,8 +1,8 @@
 import { serve } from "https://deno.land/std/http/server.ts";
 
-const s = serve({ port: 5000 });
+const s = serve({ port: 8000 });
 
-console.log('Listening to port 5000 on http://localhost:5000');
+console.log('HTTP server listening on http://localhost:8000');
 
 for await (const req of s) {
 
