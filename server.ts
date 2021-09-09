@@ -1,4 +1,4 @@
-import { serve } from "https://raw.githubusercontent.com/dedsecubr/deno/master/std/http/server.ts";
+import { serve } from "https://raw.githubusercontent.com/dedsecurity/deno/master/std/http/server.ts";
 
 const s = serve({ hostname: "0.0.0.0", port: 8000 });
 
